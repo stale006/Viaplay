@@ -12,7 +12,7 @@ What Tools did I used along with reasons
 
 1 - Bootstrap
  
-    This Frameworks makes it easy to create web pages on mobile and desktop devices. 
+    This Framework makes it easy to create web pages on mobile and desktop devices. 
     And with fewer lines of code many good looking features can be implemented.
   
 2 - Jquery
@@ -28,7 +28,7 @@ What Tools did I used along with reasons
 Intentionally leave stuff out ?
   
     I really do not think I have left any of stuff.
-    Igot no reply from Trailer addict api to get a personal Api key so based on conversation with your developers I went to use youtube embed for the video.
+    I got no reply from Trailer addict api to get a personal Api key so based on conversation with your developers I went to use youtube embed for the video.
     I wanted to use SASS and ES6 for creating the app. But at the end I did not make use of it.
     One more place where I could have done is proper error handling of API.
     It took me 4 days to do the above task. 
