@@ -1,0 +1,186 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main-content {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.app-bg-color {
+  background-color: #212d33;
+  border-color: white;
+}
+
+.border-fix {
+  border-top: 1px solid #212d33;
+  border-bottom: 1px solid white;
+}
+
+.white-color {
+  color: white !important;
+}
+
+/* css for header element */
+
+.navbar-nav.menu-list li a {
+  color: white;
+}
+
+.brand-name-padding {
+  padding: 7px 15px;
+}
+
+.user-ddm .icon {
+  vertical-align: middle;
+  margin-left: 5px;
+  top: 0px;
+}
+
+.navbar-nav.menu-list li.active a,
+.navbar-nav.menu-list li.active a:hover,
+.navbar-nav.menu-list li.active a:focus {
+  color: #212d33;
+  background-color: white;
+}
+
+.search-box .input-group-btn:last-child > .btn {
+  background-color: white;
+  outline: none;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 0px;
+  margin-left: -17px;
+  border-color: white;
+}
+
+.search-box button.btn:focus,
+.search-box button.btn:active {
+  outline: none;
+  box-shadow: none;
+  border-color: white;
+  background-color: white;
+}
+
+.search-box .icon {
+  vertical-align: middle;
+  top: 0px;
+  font-size: 12px;
+}
+
+.search-box .input-group > .form-control {
+  width: 0px;
+  padding: 0px;
+  border-radius: 17px 0px 0px 17px;
+  z-index: 1;
+  border-color: white;
+  box-shadow: none;
+}
+
+.search-box input.form-control:focus {
+  z-index: 1
+}
+
+.search-box input.form-control.show-input {
+  width: 100%;
+  opacity: 1;
+}
+
+/* css for footer element */
+footer {
+  padding: 30px;
+}
+
+.footer-list {
+  width: 20%;
+}
+
+.footer-list li {
+  background-color: transparent;
+  border-color: #212d33;
+}
+
+.footer-list li.heading {
+  color : white;
+  text-transform: uppercase;
+}
+
+.footer-list a.gray-color {
+  color: #a4a6ab;
+}
+
+/* css for right side video information element */
+.main-content ol.breadcrumb.custom {
+  padding:0px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.padding-right-5 {
+  padding-right: 5px;
+}
+
+
+.imdb-logo {
+  background-color: #e3b03b;
+  color: #000;
+  font-size: 18px;
+}
+
+h1.title {
+  margin-top: 0px;
+}
+
+.breadcrumb.custom li:before{
+  content: ""
+}
+
+.breadcrumb.custom li:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid #CCC;
+}
+
+.gray-color {
+  color: #c0c1c4
+}
+
+.font-21 {
+  font-size: 21px;
+}
+
+.badge-icon {
+  font-size: 14px;
+  background-color: #212d33;
+}
+
+/* css for left side video images*/
+.previewImage {
+  position: relative;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+  cursor: pointer;
+}
+
+.project-overlay .icon {
+  font-size: 30px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  /*Add webkit*/
+}
+
+.height-330 {
+    min-height: 330px;
+}
